@@ -18,7 +18,7 @@ using var consumer1 = new Consumer
 using var consumer2 = new Consumer
 (
   queueName: queueName,
-  longWorkImitationInMsec: 2000,
+  longWorkImitationInMsec: 500,
   receiveAction: Console.WriteLine
 );
 
