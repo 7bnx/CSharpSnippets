@@ -39,7 +39,7 @@ namespace CSharpSnippets.RabbitMQ.Common
     public readonly record struct ConnectionFactoryConfiguration
     (
       string HostName = "localhost",
-      int Port = 15672,
+      int Port = 5672,
       string UserName = "guest",
       string Password = "guest"
     )
