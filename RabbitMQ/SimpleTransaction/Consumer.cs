@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CSharpSnippets.RabbitMQ.SimpleTransaction
 {
-  public class Consumer : IDisposable
+  public sealed class Consumer : IDisposable
   {
     public string QueueName { get; init; }
     private readonly Action<string> _receiveAction;
