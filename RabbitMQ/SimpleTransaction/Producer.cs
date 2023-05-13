@@ -73,7 +73,7 @@ namespace CSharpSnippets.RabbitMQ.SimpleTransaction
 
     private void SendMessage(object? _) 
     {
-      string message = $"Message: number {++_messageCounter}, dateTime {DateTime.Now}";
+      string message = $"number {++_messageCounter}, dateTime {DateTime.Now}";
       var body = Encoding.UTF8.GetBytes(message);
       _channel!.BasicPublish
       (
