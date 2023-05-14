@@ -77,8 +77,8 @@ namespace CSharpSnippets.RabbitMQ.Routing
     {
       if (_disposed) return;
       _disposed = true;
-      _connection?.Dispose();
       _channel?.Dispose();
+      _connection?.Dispose();
     }
     ~Consumer()
     {
