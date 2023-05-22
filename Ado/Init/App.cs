@@ -1,4 +1,4 @@
-﻿using CSharpSnippets.Ado.Fill;
+﻿using CSharpSnippets.Ado.Init;
 
 var db = new Init();
 db.Drop();

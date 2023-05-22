@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using CSharpSnippets.Ado.Common;
 using Microsoft.Data.Sqlite;
 
-namespace CSharpSnippets.Ado.Fill
+namespace CSharpSnippets.Ado.Init
 {
   public class Init
   {
