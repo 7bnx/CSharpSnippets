@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read", "Ado\Read\Read.cspro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parameters", "Ado\Parameters\Parameters.csproj", "{FCE05DCE-41E0-467C-928C-E3245CA9B6A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction", "Ado\Transaction\Transaction.csproj", "{61528035-562C-4506-8874-21D77F147CE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{FCE05DCE-41E0-467C-928C-E3245CA9B6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE05DCE-41E0-467C-928C-E3245CA9B6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE05DCE-41E0-467C-928C-E3245CA9B6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61528035-562C-4506-8874-21D77F147CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61528035-562C-4506-8874-21D77F147CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61528035-562C-4506-8874-21D77F147CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61528035-562C-4506-8874-21D77F147CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +94,7 @@ Global
 		{D0E6FDF6-1C6F-4567-B2D0-8E879563143F} = {F4E0C3B3-FB0C-4F0D-8900-84BA975E2F52}
 		{30689FEB-C785-4E53-B569-1C109BD5A30B} = {F4E0C3B3-FB0C-4F0D-8900-84BA975E2F52}
 		{FCE05DCE-41E0-467C-928C-E3245CA9B6A1} = {F4E0C3B3-FB0C-4F0D-8900-84BA975E2F52}
+		{61528035-562C-4506-8874-21D77F147CE0} = {F4E0C3B3-FB0C-4F0D-8900-84BA975E2F52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F34DAB5A-19CC-46DA-9767-164E35290703}
