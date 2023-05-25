@@ -23,11 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Ado\Common\Common
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Init", "Ado\Init\Init.csproj", "{D0E6FDF6-1C6F-4567-B2D0-8E879563143F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Read", "Ado\Read\Read.csproj", "{30689FEB-C785-4E53-B569-1C109BD5A30B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Read", "Ado\Read\Read.csproj", "{30689FEB-C785-4E53-B569-1C109BD5A30B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parameters", "Ado\Parameters\Parameters.csproj", "{FCE05DCE-41E0-467C-928C-E3245CA9B6A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parameters", "Ado\Parameters\Parameters.csproj", "{FCE05DCE-41E0-467C-928C-E3245CA9B6A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction", "Ado\Transaction\Transaction.csproj", "{61528035-562C-4506-8874-21D77F147CE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transaction", "Ado\Transaction\Transaction.csproj", "{61528035-562C-4506-8874-21D77F147CE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInversion", "DependencyInversion", "{A84D1A10-76A3-4DF5-8118-F24F278CF231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftDependencyInjection", "DependencyInversion\MicrosoftDependencyInjection\MicrosoftDependencyInjection.csproj", "{71271835-F600-46E1-9F0E-801AE03FE5D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,10 @@ Global
 		{61528035-562C-4506-8874-21D77F147CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61528035-562C-4506-8874-21D77F147CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61528035-562C-4506-8874-21D77F147CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71271835-F600-46E1-9F0E-801AE03FE5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71271835-F600-46E1-9F0E-801AE03FE5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71271835-F600-46E1-9F0E-801AE03FE5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71271835-F600-46E1-9F0E-801AE03FE5D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,7 @@ Global
 		{30689FEB-C785-4E53-B569-1C109BD5A30B} = {F4E0C3B3-FB0C-4F0D-8900-84BA975E2F52}
 		{FCE05DCE-41E0-467C-928C-E3245CA9B6A1} = {F4E0C3B3-FB0C-4F0D-8900-84BA975E2F52}
 		{61528035-562C-4506-8874-21D77F147CE0} = {F4E0C3B3-FB0C-4F0D-8900-84BA975E2F52}
+		{71271835-F600-46E1-9F0E-801AE03FE5D7} = {A84D1A10-76A3-4DF5-8118-F24F278CF231}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F34DAB5A-19CC-46DA-9767-164E35290703}
