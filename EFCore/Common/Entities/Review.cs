@@ -4,7 +4,7 @@
   {
     public int ReviewId { get; set; }
     public string Reviewer { get; set; } = null!;
-    public int NumStart { get; set; }
+    public decimal NumStars { get; set; }
     public string Text { get; set; } = null!;
     public int BookId { get; set; }
   }

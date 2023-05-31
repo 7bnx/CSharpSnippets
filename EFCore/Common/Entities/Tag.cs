@@ -8,6 +8,7 @@ namespace CSharpSnippets.EFCore.Common.Entities
     [Required]
     [MaxLength(40)]
     public string TagId { get; set; } = null!;
+    public ICollection<Book> Books { get; set; } = null!;
 
   }
 }
