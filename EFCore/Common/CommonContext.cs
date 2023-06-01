@@ -14,13 +14,14 @@ namespace CSharpSnippets.EFCore.Common
     public DbSet<Author> Authors { get; set; }
     public DbSet<PriceOffer> PriceOffers { get; set; }
     public DbSet<Tag> Tags { get; set; }
-
+    public string DBName { get; init; }
+    public CommonContext(string dbName) => DBName = dbName;
     public bool EnsureDeleted() => Database.EnsureDeleted();
     public bool EnsureCreated() => Database.EnsureCreated();
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseSqlite("Data Source=entity.db");
+      optionsBuilder.UseSqlite($"Data Source={DBName}.db");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

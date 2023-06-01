@@ -11,7 +11,7 @@ namespace CSharpSnippets.EFCore.Insert
 {
   public class Context : CommonContext
   {
-    public Context()
+    public Context(string dbName) : base(dbName)
     {
       base.EnsureDeleted();
       base.EnsureCreated();

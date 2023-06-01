@@ -9,9 +9,13 @@ namespace CSharpSnippets.EFCore.Insert
 {
   public class Insert
   {
+    public string DBName { get; set; }
+    public Insert(string dBName)
+       => DBName = dBName;
+
     public int DeleteDBAndInsert()
     {
-      using Context context = new();
+      using Context context = new(DBName);
       Tag tag1 = new() { TagId = "Tag_1" };
       Tag tag2 = new() { TagId = "Tag_2" };
       Tag tag3 = new() { TagId = "Tag_3" };

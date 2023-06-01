@@ -1,6 +1,6 @@
 ﻿using CSharpSnippets.EFCore.Insert;
-
-Insert insert = new();
+var dbName = "insert";
+Insert insert = new(dbName);
 
 Console.WriteLine("Delete current DB and insert some values");
 Console.WriteLine();
