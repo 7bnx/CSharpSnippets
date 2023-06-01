@@ -34,23 +34,25 @@ namespace CSharpSnippets.EFCore.Common.Entities
         sb.Append($"\t\tOffer: {Promotion.Text}{Environment.NewLine}");
         sb.Append($"\t\tNew price: {Promotion.NewPrice}{Environment.NewLine}");
       } else
-        sb.Append("Promotion is null or empty");
+        sb.Append($"\t\tPromotion is null or empty{Environment.NewLine}");
       
       sb.Append($"\tTags{Environment.NewLine}");
       if (Tags is not null && Tags.Count > 0)
       {
+        int i = 1;
         foreach (var tag in Tags)
-          sb.Append($"\t\t{tag.TagId}{Environment.NewLine}");
+          sb.Append($"\t\t{i++}\t{tag.TagId}{Environment.NewLine}");
       } else
-        sb.Append("Tags is null or empty");
+        sb.Append($"\t\tTags is null or empty{Environment.NewLine}");
 
       sb.Append($"\tAuthors{Environment.NewLine}");
       if (AuthorsLink is not null && AuthorsLink.Count > 0)
       {
+        int i = 1;
         foreach (var author in AuthorsLink)
-          sb.Append($"\t\t{author.Author.Name}{Environment.NewLine}");
+          sb.Append($"\t\t{i++}\t{author.Author?.Name}{Environment.NewLine}");
       }else
-        sb.Append("Authors is null or empty");
+        sb.Append($"\t\tAuthors is null or empty{Environment.NewLine}");
       return sb.ToString();
     }
 
