@@ -15,7 +15,7 @@ namespace CSharpSnippets.EFCore.Insert
 
     public int DeleteDBAndInsert()
     {
-      using Context context = new(DBName);
+      using ContextInsert context = new(DBName);
       Tag tag1 = new() { TagId = "Tag_1" };
       Tag tag2 = new() { TagId = "Tag_2" };
       Tag tag3 = new() { TagId = "Tag_3" };

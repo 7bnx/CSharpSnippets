@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace CSharpSnippets.EFCore.Insert
 {
-  public class Context : CommonContext
+  public class ContextInsert : CommonContext
   {
-    public Context(string dbName) : base(dbName)
+    public ContextInsert(string dbName) : base(dbName)
     {
       base.EnsureDeleted();
       base.EnsureCreated();
