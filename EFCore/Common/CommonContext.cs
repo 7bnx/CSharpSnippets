@@ -22,10 +22,16 @@ namespace CSharpSnippets.EFCore.Common
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
       optionsBuilder.UseSqlite($"Data Source={DBName}.db");
+      OnConfiguringHook(optionsBuilder);
     }
+
+    protected virtual void OnConfiguringHook(DbContextOptionsBuilder optionsBuilder) { }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
       modelBuilder.Entity<BookAuthor>().HasKey(x => new { x.BookId, x.AuthorId });
+      OnModelCreatingHook(modelBuilder);
     }
+    protected virtual void OnModelCreatingHook(ModelBuilder modelBuilder) { }
   }
 }

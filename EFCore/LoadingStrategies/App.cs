@@ -14,7 +14,16 @@ using (var context = new LoadingStrategiesContext(dbName))
   Console.WriteLine(book);
 }
 
-Console.WriteLine("Display entity with eager loading");
+Console.WriteLine("Display entity with eager loading Promotion");
+using (var context = new LoadingStrategiesContext(dbName))
+{
+  var book = context.Books
+            .Include(book => book.Promotion)
+            .First();
+  Console.WriteLine(book);
+}
+
+Console.WriteLine("Display entity with eager loading and conditions");
 using (var context = new LoadingStrategiesContext(dbName))
 {
   var book = context.Books
@@ -24,4 +33,30 @@ using (var context = new LoadingStrategiesContext(dbName))
             .Include(book => book.Tags)
             .First();
   Console.WriteLine(book);
+}
+
+Console.WriteLine("Explicit loading");
+using (var context = new LoadingStrategiesContext(dbName))
+{
+  var book = context.Books.First();
+  context.Entry(book).Collection(b => b.AuthorsLink).Load();
+  foreach(var al in book.AuthorsLink)
+  {
+    context.Entry(al).Reference(a => a.Author).Load();
+  }
+
+  var numReviews = context.Entry(book).Collection(b => b.Reviews).Query().Count();
+  var rating = context.Entry(book).Collection(b => b.Reviews).Query().Average(r => (double)r.NumStars);
+  Console.WriteLine(book);
+  Console.WriteLine($"Number of reviews: {numReviews}");
+  Console.WriteLine($"Average rating: {rating}");
+  Console.WriteLine();
+}
+
+Console.WriteLine("Select loading");
+using(var context = new LoadingStrategiesContext(dbName))
+{
+  var books = context.Books.Select(b => new { b.Title, b.Description, b.Url }).ToList();
+  foreach (var book in books)
+    Console.WriteLine(book);
 }
