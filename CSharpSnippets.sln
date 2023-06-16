@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insert", "EFCore\Insert\Ins
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoadingStrategies", "EFCore\LoadingStrategies\LoadingStrategies.csproj", "{2416F990-475E-4FA0-B8AB-57290E8337FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientServerEvaluation", "ClientServerEvaluation\ClientServerEvaluation.csproj", "{96F18408-14D7-4FEE-B9BA-334E405A0F99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientServerEvaluation", "EFCore\ClientServerEvaluation\ClientServerEvaluation.csproj", "{96F18408-14D7-4FEE-B9BA-334E405A0F99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CRUD", "CRUD", "{DEF83346-310D-4BDB-9447-FB83AC55F228}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -134,6 +136,7 @@ Global
 		{50B92486-AA94-49E1-93C4-CC1E29B1434B} = {EC7DAF5B-70C9-4D65-99E1-B6460DF9D0DA}
 		{2416F990-475E-4FA0-B8AB-57290E8337FC} = {EC7DAF5B-70C9-4D65-99E1-B6460DF9D0DA}
 		{96F18408-14D7-4FEE-B9BA-334E405A0F99} = {EC7DAF5B-70C9-4D65-99E1-B6460DF9D0DA}
+		{DEF83346-310D-4BDB-9447-FB83AC55F228} = {EC7DAF5B-70C9-4D65-99E1-B6460DF9D0DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F34DAB5A-19CC-46DA-9767-164E35290703}
