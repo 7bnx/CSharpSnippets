@@ -37,5 +37,5 @@ using(var context = new CreateContext(dbName))
   Console.WriteLine($"State after add: {context.Entry(book).State}");
   var createdCount = context.SaveChanges();
   Console.WriteLine($"State save changes: {context.Entry(book).State}");
-  Console.WriteLine($"Entities added: {createdCount}");
+  Console.WriteLine($"Entities created: {createdCount}");
 }
