@@ -1,4 +1,4 @@
-﻿using CSharpSnippets.DependencyInversion.MicrosoftDependencyInjection;
+﻿using CSharpSnippets.DependencyInversion.Microsoft;
 using Microsoft.Extensions.DependencyInjection;
 
 

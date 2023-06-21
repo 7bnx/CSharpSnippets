@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpSnippets.DependencyInversion.MicrosoftDependencyInjection
+namespace CSharpSnippets.DependencyInversion.Microsoft
 {
   public class Logger
   {
