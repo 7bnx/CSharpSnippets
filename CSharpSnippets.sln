@@ -72,6 +72,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentAppSettings", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstanceFromConfiguration", "Configuration\InstanceFromConfiguration\InstanceFromConfiguration.csproj", "{3452ACAA-BA4F-4FA8-AEBD-8518E87514D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "Host\ConsoleHost\ConsoleHost.csproj", "{C8345225-E18A-4CED-9E39-CFD6119736A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{B1BE48CA-ECD3-4427-BECB-58DD1A5FE7D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -182,6 +186,10 @@ Global
 		{3452ACAA-BA4F-4FA8-AEBD-8518E87514D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3452ACAA-BA4F-4FA8-AEBD-8518E87514D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3452ACAA-BA4F-4FA8-AEBD-8518E87514D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8345225-E18A-4CED-9E39-CFD6119736A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8345225-E18A-4CED-9E39-CFD6119736A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8345225-E18A-4CED-9E39-CFD6119736A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8345225-E18A-4CED-9E39-CFD6119736A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -215,6 +223,7 @@ Global
 		{4C4329F4-CB6F-4E2A-AB6F-95D996C230B3} = {0878C92D-15AC-49DA-B7F2-1CE3622F50DD}
 		{813E546E-C762-48B8-A5B9-3E7D5FCFBA9C} = {0878C92D-15AC-49DA-B7F2-1CE3622F50DD}
 		{3452ACAA-BA4F-4FA8-AEBD-8518E87514D2} = {0878C92D-15AC-49DA-B7F2-1CE3622F50DD}
+		{C8345225-E18A-4CED-9E39-CFD6119736A1} = {B1BE48CA-ECD3-4427-BECB-58DD1A5FE7D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F34DAB5A-19CC-46DA-9767-164E35290703}
