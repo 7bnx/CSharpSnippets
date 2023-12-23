@@ -36,3 +36,8 @@ More options: [msdn](https://learn.microsoft.com/en-us/dotnet/core/additional-to
 reportgenerator -reports:TestsCoverage.xml -targetdir:CoverageReport -reportTypes:HtmlSummary;MarkdownSummary
 ```
 More options: [github](https://github.com/danielpalme/ReportGenerator)
+
+### Examples
+
+ - See [html](http://htmlpreview.github.io/?https://github.com/7bnx/CSharpSnippets/blob/master/Tests/CodeCoverageVizualization/CoverageReport/summary.html) page
+ - See [markdown](https://github.com/7bnx/CSharpSnippets/blob/master/Tests/CodeCoverageVizualization/CoverageReport/Summary.md) page
