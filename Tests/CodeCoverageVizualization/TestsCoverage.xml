@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage line-rate="0.6842105263157895" branch-rate="0.5" complexity="7" version="1.9" timestamp="1703318057" lines-covered="13" lines-valid="19" branches-covered="1" branches-valid="2">
+  <packages>
+    <package line-rate="0.6842105263157895" branch-rate="0.5" complexity="7" name="CodeCoverageVizualization">
+      <classes>
+        <class line-rate="0.5454545454545454" branch-rate="0.5" complexity="5" name="CodeCoverageVizualization.Class" filename="D:\Programming\Home\CSharpSnippets\Tests\CodeCoverageVizualization\Class.cs">
+          <methods>
+            <method line-rate="0.75" branch-rate="0.5" complexity="2" name="Method1" signature="()">
+              <lines>
+                <line number="4" hits="1" branch="False" />
+                <line number="5" hits="1" branch="False" />
+                <line number="6" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="0" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="7" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="Method2" signature="()">
+              <lines>
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="Method3" signature="()">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0" branch-rate="1" complexity="1" name="Method4" signature="()">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="1" branch="False" />
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="7" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class line-rate="0.875" branch-rate="1" complexity="2" name="CodeCoverageVizualization.ClassTests" filename="D:\Programming\Home\CSharpSnippets\Tests\CodeCoverageVizualization\ClassTests.cs">
+          <methods>
+            <method line-rate="1" branch-rate="1" complexity="1" name="TestMethod1_Pass" signature="()">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+                <line number="9" hits="1" branch="False" />
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method line-rate="0.75" branch-rate="1" complexity="1" name="TestMethod1_NotPass" signature="()">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
