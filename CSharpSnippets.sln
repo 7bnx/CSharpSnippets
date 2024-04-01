@@ -88,6 +88,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOptionsValidation", "Confi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFInterceptors", "EFCore\EFInterceptors\EFInterceptors.csproj", "{B26B155C-B069-473A-861D-14100A937BED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRValidation", "MediatRValidation\MediatRValidation.csproj", "{81A09256-D490-4D51-94DF-D5711D80A5B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -218,6 +220,10 @@ Global
 		{B26B155C-B069-473A-861D-14100A937BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B26B155C-B069-473A-861D-14100A937BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B26B155C-B069-473A-861D-14100A937BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A09256-D490-4D51-94DF-D5711D80A5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A09256-D490-4D51-94DF-D5711D80A5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A09256-D490-4D51-94DF-D5711D80A5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A09256-D490-4D51-94DF-D5711D80A5B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,6 +262,7 @@ Global
 		{20106A88-CCED-409B-A94A-7D1D846204A3} = {399E8B5E-56B3-4DBE-9EB4-7F0725766782}
 		{E562844D-3D4C-4188-9504-ECF697091B19} = {0878C92D-15AC-49DA-B7F2-1CE3622F50DD}
 		{B26B155C-B069-473A-861D-14100A937BED} = {EC7DAF5B-70C9-4D65-99E1-B6460DF9D0DA}
+		{81A09256-D490-4D51-94DF-D5711D80A5B0} = {399E8B5E-56B3-4DBE-9EB4-7F0725766782}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F34DAB5A-19CC-46DA-9767-164E35290703}
