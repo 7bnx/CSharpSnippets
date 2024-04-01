@@ -84,6 +84,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRDemo", "CQRS\MediatR
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{399E8B5E-56B3-4DBE-9EB4-7F0725766782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOptionsValidation", "Configuration\IOptionsValidation\IOptionsValidation.csproj", "{E562844D-3D4C-4188-9504-ECF697091B19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -206,6 +208,10 @@ Global
 		{20106A88-CCED-409B-A94A-7D1D846204A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20106A88-CCED-409B-A94A-7D1D846204A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20106A88-CCED-409B-A94A-7D1D846204A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E562844D-3D4C-4188-9504-ECF697091B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E562844D-3D4C-4188-9504-ECF697091B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E562844D-3D4C-4188-9504-ECF697091B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E562844D-3D4C-4188-9504-ECF697091B19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -242,6 +248,7 @@ Global
 		{C8345225-E18A-4CED-9E39-CFD6119736A1} = {B1BE48CA-ECD3-4427-BECB-58DD1A5FE7D8}
 		{64723028-6CF1-45E4-BFDD-F0B46CC55059} = {29A6FD38-7E20-460A-B74B-B72FBBF9FB21}
 		{20106A88-CCED-409B-A94A-7D1D846204A3} = {399E8B5E-56B3-4DBE-9EB4-7F0725766782}
+		{E562844D-3D4C-4188-9504-ECF697091B19} = {0878C92D-15AC-49DA-B7F2-1CE3622F50DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F34DAB5A-19CC-46DA-9767-164E35290703}
