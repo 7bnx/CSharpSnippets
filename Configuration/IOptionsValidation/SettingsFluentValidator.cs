@@ -6,5 +6,6 @@ internal class SettingsFluentValidator : AbstractValidator<SettingsWithFluentVal
   public SettingsFluentValidator()
   {
     RuleFor(x => x.StringField).NotEmpty().NotNull();
+    RuleFor(x => x.List).NotEmpty().WithMessage("Lol Kek");
   }
 }
