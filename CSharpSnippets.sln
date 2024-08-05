@@ -78,7 +78,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{B1BE48CA-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{29A6FD38-7E20-460A-B74B-B72FBBF9FB21}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCoverageVizualization", "Tests\CodeCoverageVizualization\CodeCoverageVizualization.csproj", "{64723028-6CF1-45E4-BFDD-F0B46CC55059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCoverageVisualization", "Tests\CodeCoverageVisualization\CodeCoverageVisualization.csproj", "{64723028-6CF1-45E4-BFDD-F0B46CC55059}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRDemo", "CQRS\MediatRDemo\MediatRDemo.csproj", "{20106A88-CCED-409B-A94A-7D1D846204A3}"
 EndProject
